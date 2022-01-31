@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .kirim {
+      width: 85px;
+    }
+    select {
+      width: 185px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran</title>
+  </head>
+  <body>
+    <h1 align="center">Form Pendaftaran</h1>
+    <hr />
+    <br />
+    <br />
+    <div class="regristasi">
+      <form action="/pendaftaran_page.php">
+        <!--Name-->
+        <label for="name">Nama :</label><br /><br />
+        <input type="text" /><br />
+        <br />
+        <!--Akhir Name-->
+        <!--Gender-->
+        <label for="gender">Jenis Kelamin :</label><br />
+        <br />
+        <select name="" id="">
+          <option value="boy">Laki-laki</option>
+          <option value="girl">Perempuan</option></select
+        ><br />
+        <br />
+        <!--Akhir Gender-->
+        <!--Status-->
+        <label for="">Status :</label><br />
+        <br />
+        <input type="radio" value="menikah" name="status" />Menikah
+        <input type="radio" value="lajang" name="status" />Lajang <br />
+        <br />
+        <!--Akhir Status-->
+        <!--Makanan Kesukaaan-->
+        <label for="makanan_kesukaan">Makanan Kesukaan :</label><br />
+        <br />
+        <input type="checkbox" name="mie ayam" id="mie ayam" />
+        <label for="mie ayam">Mie Ayam</label>
+        <input type="checkbox" name="bakso" id="bakso" />
+        <label for="bakso">Bakso</label>
+        <input type="checkbox" name="ayam geprek" id="ayam geprek" />
+        <label for="ayam geprek">Ayam Geprek</label> <br />
+        <br />
+        <!--Akhir Makanan Kesukaaan-->
+        <!--Minuman Kesukaan-->
+        <label for="minuman_kesukaan">Minuman Kesukaan :</label> <br />
+        <br />
+        <input type="checkbox" name="teh" id="teh" />
+        <label for="teh">Teh</label>
+        <input type="checkbox" name="kopi" id="kopi" />
+        <label for="kopi">Kopi</label>
+        <input type="checkbox" name="susu" id="susu" />
+        <label for="susu">Susu</label><br />
+        <br />
+        <!--Akhir Minuman Kesukaan-->
+        <!--Submit-->
+        <input
+          class="kirim"
+          type="submit"
+          style="background-color: rgb(147, 147, 243)"
+          value="Kirim"
+        />
+      </form>
+    </div>
+  </body>
+</html>
