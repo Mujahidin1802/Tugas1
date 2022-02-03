@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
+    body {
+      background: url("img/bekgo.jpg");
+      margin-bottom: 200px;
+    }
+    h1 {
+      color: aliceblue;
+    }
     .kirim {
       width: 85px;
     }
@@ -13,6 +20,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pendaftaran</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <h1 align="center">Form Pendaftaran</h1>
@@ -22,25 +35,31 @@
     <div class="regristasi">
       <form action="/pendaftaran_page.php">
         <!--Name-->
-        <label for="name">Nama :</label><br /><br />
+        <hr />
+        <label for="name">Nama :</label><br />
         <input type="text" /><br />
         <br />
+        <br />
+        <hr />
         <!--Akhir Name-->
         <!--Gender-->
         <label for="gender">Jenis Kelamin :</label><br />
-        <br />
         <select name="" id="">
           <option value="boy">Laki-laki</option>
           <option value="girl">Perempuan</option></select
         ><br />
         <br />
+        <br />
+        <hr />
         <!--Akhir Gender-->
         <!--Status-->
         <label for="">Status :</label><br />
         <br />
-        <input type="radio" value="menikah" name="status" />Menikah
+        <input type="radio" value="menikah" name="status" />Menikah ‎ ‎ ‎ ‎ ‎
         <input type="radio" value="lajang" name="status" />Lajang <br />
         <br />
+        <br />
+        <hr />
         <!--Akhir Status-->
         <!--Makanan Kesukaaan-->
         <label for="makanan_kesukaan">Makanan Kesukaan :</label><br />
@@ -52,6 +71,8 @@
         <input type="checkbox" name="ayam geprek" id="ayam geprek" />
         <label for="ayam geprek">Ayam Geprek</label> <br />
         <br />
+        <br />
+        <hr />
         <!--Akhir Makanan Kesukaaan-->
         <!--Minuman Kesukaan-->
         <label for="minuman_kesukaan">Minuman Kesukaan :</label> <br />
@@ -63,15 +84,30 @@
         <input type="checkbox" name="susu" id="susu" />
         <label for="susu">Susu</label><br />
         <br />
+        <br />
+        <hr />
+        <br />
         <!--Akhir Minuman Kesukaan-->
         <!--Submit-->
         <input
           class="kirim"
           type="submit"
-          style="background-color: rgb(147, 147, 243)"
+          style="background-color: rgb(4, 80, 4)"
           value="Kirim"
         />
       </form>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+      <p>Created with love by Mooja ‎ ‎ ‎ ‎</p>
+      <p>© 2022 Mooja</p><br>
+      <div class="icon-bar">
+  <a href="#"><i class="fa fa-home"></i></a>
+  <a href="#"><i class="fa fa-search"></i></a>
+  <a href="#"><i class="fa fa-envelope"></i></a>
+  <a href="#"><i class="fa fa-globe"></i></a>
+    </footer>
+    <!--Akhir Footer-->
     </div>
   </body>
 </html>

@@ -4,5 +4,53 @@ p {
 select {
   width: 185px;
 }
+input {
+  width: max-content;
+}
 .regristasi {
+  border: 1px solid rgb(87, 86, 86);
+  width: 300px;
+  color: white;
+  padding: 50px;
+  background-color: black;
+  margin: auto;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.472);
+
+  border: 1px solid;
+
+  box-shadow: 10px 10px 50px #000000;
+}
+
+.kirim {
+  border-radius: 5px;
+  margin-left: 200px;
+  color: aliceblue;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.164);
+  color: rgb(211, 207, 207);
+  text-align: center;
+}
+.icon-bar {
+  width: 100%;
+  text-overflow:ellipsis;
+}
+
+.icon-bar a {
+  float:left
+  width: 20%;
+  text-align:center;
+  padding: 15px 0;
+  transition: all 0.3s ease;
+  color: lightgray;
+  font-size: 18px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
 }
